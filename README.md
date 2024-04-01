@@ -4,7 +4,8 @@
 
 ## Descrizione
 **camTGalert** is a Linux cli, GUI &amp; Daemon/Service application that captures images and videos from your webcam, detects motion and sends notifications via Telegram written by Pawel 'okno' Zorzan Urban. 
- All Photos and Videos will be stored on Telegram! (Infinite Space!) :-)
+ 
+All Photos and Videos will be stored on Telegram! (Infinite Space!) :-)
 
 ## Main Functions 
 - `Capture Photos`

@@ -15,7 +15,7 @@ All Photos and Videos will be stored on Telegram! (Infinite Space!) :-)
 - `Detect Motion`
 - `Highlights Motion Area`
 - `Video Record`
-- `Daemon Mode` To run ad Daemon on startup 
+- `Daemon Mode` To run as Daemon on startup 
 - `Graphic User Interface`
 - `Live Preview`
 - `Easy configuration`

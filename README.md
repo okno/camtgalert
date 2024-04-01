@@ -42,8 +42,25 @@ Clone Repository:
 $ sudo git clone https://github.com/okno/camtgalert /opt/camtgalert
 ```
 To install the depedencies run:
+```
+$ sudo apt install v4l-utils -y
+```
+Now check if your Camera, Webcam, UVC(USB Video Class) device is correctly connected and the driver has a device: 
+```
+$ v4l2-ctl --list-devices
+```
+If you see something like this, your camera should be on the /dev/video0 device. 
+```
+HP HD Webcam [Fixed]: HP HD Web (usb-0000:00:1a.0-1.3):
+        /dev/video0
+        /dev/video1
+        /dev/media0
+```
+
+
+
 ```bash
-pip3 install python-telegram-bot opencv-python opencv-python-headless
+sudo pip3 install -r /opt/camtgalert/requirements.txt
 ```
 ### Core 
 

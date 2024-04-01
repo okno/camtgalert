@@ -4,10 +4,11 @@
 
 ## Descrizione
 **camTGalert** is a Linux cli, GUI &amp; Daemon/Service application that captures images and videos from your webcam, detects motion and sends notifications via Telegram written by Pawel 'okno' Zorzan Urban.
+All Photo and Videos will be stored on Telegram! (Infinite Space!) :-)
 
-## Main functions are
-- `Capture Images`
-- `Compare from last`
+## Main Functions 
+- `Capture Photos`
+- `Compare Photos`
 - `Detect Motion`
 - `Highlights Motion Area`
 - `Video Record`
@@ -19,24 +20,35 @@
 - `Telegram BOT Connection`
 - `Multi Thread`
 - `Logging`
+- `Auto Cleaning Files`
 
 ## Installation
-
+Tested on Debian 12, Ubuntu 22.04
 ### Dependencies
 These are the main dependencies:
+- git 
 - python-telegram-bot
 - opencv-python
 - opencv-python-headless
 - v4l-utils
 
+### Download & Install 
+Install git:
+```
+$ sudo apt install git -y
+```
+Clone Repository:
+```
+$ sudo git clone https://github.com/okno/camtgalert /opt/camtgalert
+```
 To install the depedencies run:
 ```bash
 pip3 install python-telegram-bot opencv-python opencv-python-headless
 ```
 ### Core 
-```bash
-git clone ...
-```
+
+Core Configurations
+
 ### Paths, Logs, Files: 
 File | Description
 ------------- | -------------

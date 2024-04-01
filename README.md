@@ -3,8 +3,8 @@
 ![GitHub license](https://img.shields.io/github/license/okno/camtgalert.svg)
 
 ## Descrizione
-**camTGalert** is a Linux cli, GUI &amp; Daemon/Service application that captures images and videos from your webcam, detects motion and sends notifications via Telegram written by Pawel 'okno' Zorzan Urban.
-All Photo and Videos will be stored on Telegram! (Infinite Space!) :-)
+**camTGalert** is a Linux cli, GUI &amp; Daemon/Service application that captures images and videos from your webcam, detects motion and sends notifications via Telegram written by Pawel 'okno' Zorzan Urban. 
+ All Photos and Videos will be stored on Telegram! (Infinite Space!) :-)
 
 ## Main Functions 
 - `Capture Photos`
@@ -92,6 +92,20 @@ To close the application just press ```CTRL+c``` and wait few seconds to let the
 If you want to use the Graphic User Interface 
 ```
 $ sudo python3 /opt/camtgalert/camtgalert.py --gui
+```
+To quit the GUI, just press the "Close Monitoring & BOT Connection" button or press X from the titlebar or ```CTRL+c``` from the terminal and wait few seconds to let the ram clean.
+If everything is perfect you should see something like this:
+```
+okno@xuna:/opt/camtgalert$ sudo python3 /opt/camtgalert/camtgalert.py --gui 
+
+camTGalert - Pawel 'okno' Zorzan Urban
+             https://pawelzorzan.com
+
+WEBCAM to Telegram Application GUI & Daemon
+Connessione ed invio effettuate con successo
+ >> Monitoraggio in Corso!
+ >> camTGalert terminato con successo!
+okno@xuna:/opt/camtgalert$ 
 ```
 ### Paths, Logs, Files: 
 File | Description

@@ -1,0 +1,13 @@
+[General]
+time_recording = 30
+output_folder = video_img
+max_storage = 1
+log_file = /var/log/telegrambotcam.log
+
+[Version]
+verid = 0.7
+
+[Telegram]
+bot_token = XXXXXXXX:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+group_id = XXXXXXXXXXX
+

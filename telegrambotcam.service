@@ -1,0 +1,16 @@
+[Unit]
+Description=Telegram Bot Camera Daemon
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/opt/camtgalert
+ExecStart=python3 /opt/camtgalert/camtgalert.py
+Restart=always
+RestartSec=3
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=telegrambotcam
+
+[Install]
+WantedBy=multi-user.target

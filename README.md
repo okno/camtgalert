@@ -87,6 +87,7 @@ $ sudo python3 /opt/camtgalert/camtgalert.py
 <p align="center">
 <img src="https://raw.githubusercontent.com/okno/camtgalert/master/screenshotGUI.jpeg" /></p>
 <center>
+ 
 If you want to use the Graphic User Interface 
 ```
 $ sudo python3 /opt/camtgalert/camtgalert.py --gui

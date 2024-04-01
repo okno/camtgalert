@@ -70,7 +70,12 @@ Install Python requirements:
 ```bash
 $ sudo pip3 install -r /opt/camtgalert/requirements.txt
 ```
-### BOT Installation
+### Creating a new Telegram Bot
+Message @botfather https://telegram.me/botfather with the following text: ```/newbot``` 
+If you don't know how to message by username, click the search field on your Telegram app and type ```@botfather```, you should be able to initiate a conversation. 
+Be careful not to send it to the wrong contact, because there are users with a similar username.
+
+
 - Get BOT from BOTfather in Telegram
 - Get Group ID From Telegram
   
@@ -165,4 +170,6 @@ Contact | URL
 Website | https://pawelzorzan.com 
 LinkedIN | https://www.linkedin.com/in/pawelzorzan
 Twitter | https://twitter.com/pawelzorzan
-Do you want to have a conversation in private? Hit me up on my [twitter](https://twitter.com/pawelzorzan)
+
+Do you want to have a conversation in private? Hit me up on Telegram!
+

@@ -23,7 +23,13 @@ All Photo and Videos will be stored on Telegram! (Infinite Space!) :-)
 - `Auto Cleaning Files`
 
 ## Installation
-Tested on Debian 12, Ubuntu 22.04
+Tested on :
+- Debian 12.5 bookworm
+- Debian 11.9 bullseye
+- Ubuntu 22.04
+Pyton Versions: 
+- Python 3.11.2
+- Python 3.9.2
 ### Dependencies
 These are the main dependencies:
 - git 
@@ -32,6 +38,7 @@ These are the main dependencies:
 - opencv-python-headless
 - v4l-utils
 - tk
+- pillow
 
 ### Download & Install 
 To install the depedencies run:
@@ -63,7 +70,7 @@ Core Configurations
 
 
 ### Troubleshooting
-# Issue #1
+## Issue #1
 If you see this error: 
 ```
 Traceback (most recent call last):
@@ -111,7 +118,7 @@ You can contribute in following ways:
  `Pawel Zorzan Urban` alias okno 
 Contact | URL
 ------------- | -------------
-website | https://pawelzorzan.com 
-linkedin | https://www.linkedin.com/in/pawelzorzan
-
+Website | https://pawelzorzan.com 
+LinkedIN | https://www.linkedin.com/in/pawelzorzan
+Twitter | https://twitter.com/pawelzorzan
 Do you want to have a conversation in private? Hit me up on my [twitter](https://twitter.com/pawelzorzan)

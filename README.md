@@ -53,13 +53,6 @@ File | Description
 - Complete English Translate
 - Complete Italian Translate
 
-### Credits 
- `Pawel Zorzan Urban` alias okno 
-Contact | URL
-------------- | -------------
-website | https://pawelzorzan.com 
-linkedin | https://www.linkedin.com/in/pawelzorzan/
-
 ### Contribution
 
 You can contribute in following ways:
@@ -68,5 +61,11 @@ You can contribute in following ways:
    - Give suggestions to make it better
    - Fix issues & submit a pull request
 
+### Credits 
+ `Pawel Zorzan Urban` alias okno 
+Contact | URL
+------------- | -------------
+website | https://pawelzorzan.com 
+linkedin | https://www.linkedin.com/in/pawelzorzan/
 Do you want to have a conversation in private? 
 Hit me up on my [twitter](https://twitter.com/pawelzorzan)

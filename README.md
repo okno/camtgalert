@@ -51,12 +51,12 @@ File | Description
 ### Configuration Parameters 
 Variabile | Description | Type
 ------------- | ------------- | -------------
-time_recording | tempo di registrazione in secondi.
-output_folder | cartella di destinazione per i file acquisiti.
-max_storage | dimensione massima dello storage in gigabyte.
-log_file | percorso del file di log.
-bot_token | token del bot Telegram.
-group_id | ID del gruppo Telegram per le notifiche.
+time_recording | Set Recording Time in Seconds (Sec.) | Float
+output_folder | Images and Videos Folder | String
+max_storage | Max Storage Size in Gigabyte (Gb) | Int
+log_file | LOG File full path | String
+bot_token | Telegram Token | String 
+group_id | Group ID to write on | Int 
 
 ## TODO!
 - Optimize Threads and Loops 

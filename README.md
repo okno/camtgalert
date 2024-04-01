@@ -87,8 +87,6 @@ $ sudo python3 /opt/camtgalert/camtgalert.py
 <p align="center">
 <img src="https://raw.githubusercontent.com/okno/camtgalert/master/screenshotGUI.jpeg" /></p>
 <center>
- ![screenshot](screenshotGUI.jpeg)</center>
-
 If you want to use the Graphic User Interface 
 ```
 $ sudo python3 /opt/camtgalert/camtgalert.py --gui
@@ -131,7 +129,6 @@ group_id | Group ID to write on | Int
 - Complete Italian Translate
 
 ### Contribution
-
 You can contribute in following ways:
 
    - Report bugs

@@ -31,8 +31,12 @@ To install the depedencies run:
 ```bash
 pip3 install python-telegram-bot opencv-python opencv-python-headless
 ```
+### Core 
+```bash
+git clone ...
+```
 
 ## TODO!
-- Optimize Loops
+- Optimize Threads and Loops 
 - Complete English Translate
 - Complete Italian Translate 

@@ -1,4 +1,5 @@
 # camTGalert
+[[![GitHub license](https://img.shields.io/github/license/okno/camtgalert.svg)]]
 
 ## Descrizione
 **camTGalert** is a Linux cli, GUI &amp; Daemon/Service application that captures images and videos from your webcam, detects motion and sends notifications via Telegram written by Pawel 'okno' Zorzan Urban.

@@ -76,6 +76,6 @@ You can contribute in following ways:
 Contact | URL
 ------------- | -------------
 website | https://pawelzorzan.com 
-linkedin | https://www.linkedin.com/in/pawelzorzan/
-Do you want to have a conversation in private? 
-Hit me up on my [twitter](https://twitter.com/pawelzorzan)
+linkedin | https://www.linkedin.com/in/pawelzorzan
+
+Do you want to have a conversation in private? Hit me up on my [twitter](https://twitter.com/pawelzorzan)

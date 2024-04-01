@@ -37,8 +37,35 @@ pip3 install python-telegram-bot opencv-python opencv-python-headless
 ```bash
 git clone ...
 ```
+### Paths, Logs, Files: 
+File  | Description
+------------- | -------------
+/opt/camtgalert/ | Default Working camTGalert Folder
+/opt/camtgalert/bot.config | Default Configuration File 
+/opt/camtgalert/camtgalert.py | Main Application File
+/opt/camtgalert/telegram_functions.py | BOT Functions 
+/opt/camtgalert/telegrambotcam.service | Systemd Service Registration file
+/opt/camtgalert/video_img | Default Video and Image Folder
+/opt/camtgalert/backups | Default Configuraton Backup Folder
 
 ## TODO!
 - Optimize Threads and Loops 
 - Complete English Translate
-- Complete Italian Translate 
+- Complete Italian Translate
+
+#### Credits 
+`Pawel Zorzan Urban`
+alias okno 
+website  : https://pawelzorzan.com 
+linkedin : https://www.linkedin.com/in/pawelzorzan/
+
+#### Contribution
+
+You can contribute in following ways:
+
+   - Report bugs
+   - Give suggestions to make it better
+   - Fix issues & submit a pull request
+
+Do you want to have a conversation in private? 
+Hit me up on my [twitter](https://twitter.com/pawelzorzan)

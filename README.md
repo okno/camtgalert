@@ -38,7 +38,7 @@ pip3 install python-telegram-bot opencv-python opencv-python-headless
 git clone ...
 ```
 ### Paths, Logs, Files: 
-File  | Description
+File | Description
 ------------- | -------------
 /opt/camtgalert/ | Default Working camTGalert Folder
 /opt/camtgalert/bot.config | Default Configuration File 
@@ -54,10 +54,8 @@ File  | Description
 - Complete Italian Translate
 
 ### Credits 
- `Pawel Zorzan Urban` alias okno  
- website  : https://pawelzorzan.com 
- linkedin : https://www.linkedin.com/in/pawelzorzan/
-
+ `Pawel Zorzan Urban` alias okno 
+Contact | URL
 ------------- | -------------
 website | https://pawelzorzan.com 
 linkedin | https://www.linkedin.com/in/pawelzorzan/

@@ -83,6 +83,7 @@ To run the bot exec the follow command and take a look at your Telegram Group or
 ```
 $ sudo python3 /opt/camtgalert/camtgalert.py 
 ```
+To close the application just press ```CTRL+c``` and wait few seconds to let the ram clean.
 # Graphic User Interface 
 <p align="center">
 <img src="https://raw.githubusercontent.com/okno/camtgalert/master/screenshotGUI.jpeg" /></p>

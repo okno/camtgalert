@@ -283,10 +283,10 @@ if "--gui" in sys.argv[1:]:
     config_button = tk.Button(root, text="Modifica Configurazione", command=open_config_window)
     config_button.grid(row=0, column=0, columnspan=2, pady=10)
 
-    # Aggiungi il label "Sviluppato da Pawel 'okno' Zorzan Urban" sotto il pulsante
+    
     developed_by_label = tk.Label(root, text="Sviluppato da Pawel 'okno' Zorzan Urban", font=("Helvetica", 8), fg="blue", cursor="hand2")
     developed_by_label.grid(row=6, column=0, columnspan=2)
-    developed_by_label.bind("<Button-1>", open_link)  # Associa la funzione all'evento clic del label
+    developed_by_label.bind("<Button-1>", open_link) 
 
     root.mainloop()
 else:

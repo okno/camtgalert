@@ -53,13 +53,13 @@ File  | Description
 - Complete English Translate
 - Complete Italian Translate
 
-#### Credits 
+### Credits 
 `Pawel Zorzan Urban`
 alias okno 
 website  : https://pawelzorzan.com 
 linkedin : https://www.linkedin.com/in/pawelzorzan/
 
-#### Contribution
+### Contribution
 
 You can contribute in following ways:
 

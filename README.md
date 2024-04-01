@@ -15,14 +15,14 @@ All Photos and Videos will be stored on Telegram! (Infinite Space!) :-)
 - `Detect Motion`
 - `Highlights Motion Area`
 - `Video Record`
-- `Daemon Mode`
+- `Daemon Mode` To run ad Daemon on startup 
 - `Graphic User Interface`
 - `Live Preview`
 - `Easy configuration`
 - `Configuration Backup`
 - `Telegram BOT Connection`
 - `Multi Thread`
-- `Logging`
+- `Logging` for SIEM integration
 - `Auto Cleaning Files`
 <p align="center">
 <img src="https://raw.githubusercontent.com/okno/camtgalert/master/camTGalert.jpeg" /></p>

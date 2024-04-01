@@ -54,10 +54,13 @@ File  | Description
 - Complete Italian Translate
 
 ### Credits 
- `Pawel Zorzan Urban` 
- alias okno  
+ `Pawel Zorzan Urban` alias okno  
  website  : https://pawelzorzan.com 
  linkedin : https://www.linkedin.com/in/pawelzorzan/
+
+------------- | -------------
+website | https://pawelzorzan.com 
+linkedin | https://www.linkedin.com/in/pawelzorzan/
 
 ### Contribution
 

@@ -84,6 +84,11 @@ To run the bot exec the follow command and take a look at your Telegram Group or
 $ sudo python3 /opt/camtgalert/camtgalert.py 
 ```
 # Graphic User Interface 
+<p align="center">
+<img src="https://raw.githubusercontent.com/okno/camtgalert/master/screenshotGUI.jpeg" /></p>
+<center>
+ ![screenshot](screenshotGUI.jpeg)</center>
+
 If you want to use the Graphic User Interface 
 ```
 $ sudo python3 /opt/camtgalert/camtgalert.py --gui

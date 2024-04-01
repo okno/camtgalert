@@ -92,17 +92,6 @@ If you want to use the Graphic User Interface
 ```
 $ sudo python3 /opt/camtgalert/camtgalert.py --gui
 ```
-### Troubleshooting
-## Issue #1
-If you see this error: 
-```
-Traceback (most recent call last):
-  File "/opt/camtgalert/camtgalert.py", line 12, in <module>
-    from PIL import Image, ImageTk
-ImportError: cannot import name 'ImageTk' from 'PIL' (/usr/lib/python3/dist-packages/PIL/__init__.py)
-```
-Run this command to solve the problem: 
-```sudo pip3 install --upgrade pillow```
 ### Paths, Logs, Files: 
 File | Description
 ------------- | -------------
@@ -113,7 +102,7 @@ File | Description
 /opt/camtgalert/telegrambotcam.service | Systemd Service Registration file
 /opt/camtgalert/video_img | Default Video and Image Folder
 /opt/camtgalert/backups | Default Configuraton Backup Folder
-
+/var/log/telegrambotcam.log | Default Logfile 
 ### Configuration Parameters 
 Variabile | Description | Type
 ------------- | ------------- | -------------
@@ -123,7 +112,21 @@ max_storage | Max Storage Size in Gigabyte (Gb) | Int
 log_file | LOG File full path | String
 bot_token | Telegram Token | String 
 group_id | Group ID to write on | Int 
-
+### Troubleshooting
+To see the logs open another terminal or use tmux and run: 
+```
+tail -f /var/log/telegrambotcam.log
+```
+## Issue #1
+If you see this error: 
+```
+Traceback (most recent call last):
+  File "/opt/camtgalert/camtgalert.py", line 12, in <module>
+    from PIL import Image, ImageTk
+ImportError: cannot import name 'ImageTk' from 'PIL' (/usr/lib/python3/dist-packages/PIL/__init__.py)
+```
+Run this command to solve the problem: 
+```sudo pip3 install --upgrade pillow```
 ## TODO!
 - Optimize Threads and Loops 
 - Complete English Translate

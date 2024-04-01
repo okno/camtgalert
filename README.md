@@ -71,14 +71,35 @@ Install Python requirements:
 $ sudo pip3 install -r /opt/camtgalert/requirements.txt
 ```
 ### Creating a new Telegram Bot
-Message @botfather https://telegram.me/botfather with the following text: ```/newbot``` 
-If you don't know how to message by username, click the search field on your Telegram app and type ```@botfather```, you should be able to initiate a conversation. 
-Be careful not to send it to the wrong contact, because there are users with a similar username.
+- Message @botfather https://t.me/botfather with the following text: ```/newbot``` If you don't know how to message by username, click the search field on your Telegram app and type ```@botfather```, you should be able to initiate a conversation.
+- ```@botfather``` replies with ```Alright, a new bot. How are we going to call it? Please choose a name for your bot```.
+- Type whatever name you want for your bot.
+- ```@botfather``` replies with ```Good. Now let's choose a username for your bot. It must end in bot. Like this, for example: TetrisBot or tetris_bot```.
+- Type whatever username you want for your bot, minimum 5 characters, and must end with bot. For example: ```camTGalert_bot```
+- ```@botfather``` replies with:
+```
+Done! Congratulations on your new bot. You will find it at telegram.me/camTGalert_bot. You can now add a description, about section and profile picture for your bot, see /help for a list of commands.
 
+Use this token to access the HTTP API: 123456789:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
-- Get BOT from BOTfather in Telegram
-- Get Group ID From Telegram
-  
+For a description of the Bot API, see this page: https://core.telegram.org/bots/api
+```
+Note down the 'token' mentioned above! Is mandatory to configure the BOT!
+
+### Get Group ID From Telegram
+You need a browser or the command curl, so you have to open the url: https://api.telegram.org/bot(BOT TOKEN), ex:
+```bash
+$ curl https://api.telegram.org/bot123456789:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+```
+You shoul see something like this: 
+```
+{"ok":true,"result":[{"update_id":742342350,
+"message":{"message_id":31337,"from":{"id":999999999,"is_bot":false,"first_name":"pawel","username":"okno_pawel","language_code":"en"},"chat":{"id":999999999,"first_name":"pawel","username":"okno_pawel","type":"private"},"date":1711954014,"text":"test","entities":[{"offset":0,"length":11,"type":"bot_command"}]}}]}
+```
+Now you need to note down the parameter "id" 
+
+You can user ```id```, ```chat_id``` or ```group_id``` and the bot will publish images, video and messages on it.
+### Configure camTGalert
 Copy the default config file to your new one: 
 ```
 $ sudo cp /opt/camtgalert/bot.config.default /opt/camtgalert/bot.config

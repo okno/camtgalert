@@ -21,6 +21,9 @@
 - `Multi Thread`
 - `Logging`
 - `Auto Cleaning Files`
+<p align="center">
+<img src="https://raw.githubusercontent.com/okno/camtgalert/master/camTGalert.jpeg" /></p>
+<center>
 
 ## Installation
 Tested on :

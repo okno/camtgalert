@@ -27,7 +27,8 @@ Tested on :
 - Debian 12.5 bookworm
 - Debian 11.9 bullseye
 - Ubuntu 22.04
-Pyton Versions: 
+ 
+Pyton Versions:
 - Python 3.11.2
 - Python 3.9.2
 ### Dependencies
@@ -39,6 +40,7 @@ These are the main dependencies:
 - v4l-utils
 - tk
 - pillow
+- telebot
 
 ### Download & Install 
 To install the depedencies run:
@@ -60,15 +62,32 @@ Clone Repository:
 ```
 $ sudo git clone https://github.com/okno/camtgalert /opt/camtgalert
 ```
-Install 
+Install Python requirements: 
 ```bash
-sudo pip3 install -r /opt/camtgalert/requirements.txt
+$ sudo pip3 install -r /opt/camtgalert/requirements.txt
 ```
-### Core 
-
-Core Configurations
-
-
+### BOT Installation
+- Get BOT from BOTfather in Telegram
+- Get Group ID From Telegram
+  
+Copy the default config file to your new one: 
+```
+$ sudo cp /opt/camtgalert/bot.config.default /opt/camtgalert/bot.config
+```
+Edit the configuration and set yout Token and Group ID, to exit the editor press CTRL+X :
+```
+$ sudo pico /opt/camtgalert/bot.config
+```
+# Now you are ready to go!
+To run the bot exec the follow command and take a look at your Telegram Group or Telegram Chat
+```
+$ sudo python3 /opt/camtgalert/camtgalert.py 
+```
+# Graphic User Interface 
+If you want to use the Graphic User Interface 
+```
+$ sudo python3 /opt/camtgalert/camtgalert.py --gui
+```
 ### Troubleshooting
 ## Issue #1
 If you see this error: 

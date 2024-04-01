@@ -48,6 +48,16 @@ File | Description
 /opt/camtgalert/video_img | Default Video and Image Folder
 /opt/camtgalert/backups | Default Configuraton Backup Folder
 
+### Configuration Parameters 
+Variabile | Description | Type
+------------- | ------------- | -------------
+time_recording | tempo di registrazione in secondi.
+output_folder | cartella di destinazione per i file acquisiti.
+max_storage | dimensione massima dello storage in gigabyte.
+log_file | percorso del file di log.
+bot_token | token del bot Telegram.
+group_id | ID del gruppo Telegram per le notifiche.
+
 ## TODO!
 - Optimize Threads and Loops 
 - Complete English Translate

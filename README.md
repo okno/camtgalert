@@ -31,19 +31,12 @@ These are the main dependencies:
 - opencv-python
 - opencv-python-headless
 - v4l-utils
+- tk
 
 ### Download & Install 
-Install git:
-```
-$ sudo apt install git -y
-```
-Clone Repository:
-```
-$ sudo git clone https://github.com/okno/camtgalert /opt/camtgalert
-```
 To install the depedencies run:
 ```
-$ sudo apt install v4l-utils -y
+$ sudo apt install python3 python3-pip python3-tk git v4l-utils -y
 ```
 Now check if your Camera, Webcam, UVC(USB Video Class) device is correctly connected and the driver has a device: 
 ```
@@ -56,9 +49,11 @@ HP HD Webcam [Fixed]: HP HD Web (usb-0000:00:1a.0-1.3):
         /dev/video1
         /dev/media0
 ```
-
-
-
+Clone Repository:
+```
+$ sudo git clone https://github.com/okno/camtgalert /opt/camtgalert
+```
+Install 
 ```bash
 sudo pip3 install -r /opt/camtgalert/requirements.txt
 ```
@@ -66,6 +61,18 @@ sudo pip3 install -r /opt/camtgalert/requirements.txt
 
 Core Configurations
 
+
+### Troubleshooting
+# Issue #1
+If you see this error: 
+```
+Traceback (most recent call last):
+  File "/opt/camtgalert/camtgalert.py", line 12, in <module>
+    from PIL import Image, ImageTk
+ImportError: cannot import name 'ImageTk' from 'PIL' (/usr/lib/python3/dist-packages/PIL/__init__.py)
+```
+Run this command to solve the problem: 
+```sudo pip3 install --upgrade pillow```
 ### Paths, Logs, Files: 
 File | Description
 ------------- | -------------

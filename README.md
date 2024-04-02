@@ -28,10 +28,10 @@ All Photos and Videos will be stored on Telegram! (Infinite Space!) :-)
 
 ## Installation
 Tested on :
-- Debian 12.5 bookworm
-- Debian 11.9 bullseye
-- Ubuntu 22.04
- 
+- Debian 12.5 bookworm <amd64>
+- Debian 11.9 bullseye <amd64>
+- Ubuntu 22.04 <amd64>
+
 Pyton Versions:
 - Python 3.11.2
 - Python 3.9.2

@@ -193,7 +193,7 @@ ImportError: cannot import name 'ImageTk' from 'PIL' (/usr/lib/python3/dist-pack
 Run this command to solve the problem: 
 ```sudo pip3 install --upgrade pillow```
 ## Issue #2
-If you use Ubuntu 22.04 maybe you will need the following pip3 dependencies: 
+If you use Ubuntu 22.04 maybe you will need the following Python dependencies: 
 ```
 - pyTelegramBotAPI
 - opencv-python-headless

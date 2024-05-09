@@ -24,35 +24,36 @@ All Photos and Videos will be stored on Telegram! (Infinite Space!) :-)
 - `Auto Cleaning Files`
 <p align="center">
 <img src="https://raw.githubusercontent.com/okno/camtgalert/master/camTGalert.jpeg" /></p>
+<center>
 
-### Tested on system Versions :
-- `Debian 12.5 bookworm <amd64>`
-- `Debian 11.9 bullseye <amd64>`
-- `Ubuntu 22.04 <amd64>`
+## Installation
+Tested on :
+- Debian 12.5 bookworm <amd64>
+- Debian 11.9 bullseye <amd64>
+- Ubuntu 22.04 <amd64>
 
-### Tested with Python Versions:
-- `Python 3.11.2`
-- `Python 3.9.2`
-
+Pyton Versions:
+- Python 3.11.2
+- Python 3.9.2
 ### Dependencies
 These are the main dependencies:
-- `git` 
-- `python-telegram-bot`
-- `opencv-python`
-- `opencv-python-headless`
-- `v4l-utils`
-- `tk`
-- `pillow`
-- `telebot`
+- git 
+- python-telegram-bot
+- opencv-python
+- opencv-python-headless
+- v4l-utils
+- tk
+- pillow
+- telebot
 
-## Download & Install 
+### Download & Install 
 To install the depedencies run:
 ```
-sudo apt install python3 python3-pip python3-tk git v4l-utils -y
+$ sudo apt install python3 python3-pip python3-tk git v4l-utils -y
 ```
 Now check if your Camera, Webcam, UVC(USB Video Class) device is correctly connected and the driver has a device: 
 ```
-v4l2-ctl --list-devices
+$ v4l2-ctl --list-devices
 ```
 If you see something like this, your camera should be on the /dev/video0 device. 
 ```
@@ -63,11 +64,11 @@ HP HD Webcam [Fixed]: HP HD Web (usb-0000:00:1a.0-1.3):
 ```
 Clone Repository:
 ```
-sudo git clone https://github.com/okno/camtgalert /opt/camtgalert
+$ sudo git clone https://github.com/okno/camtgalert /opt/camtgalert
 ```
 Install Python requirements: 
 ```bash
-sudo pip3 install -r /opt/camtgalert/requirements.txt
+$ sudo pip3 install -r /opt/camtgalert/requirements.txt
 ```
 ### Creating a new Telegram Bot
 - Message @botfather https://t.me/botfather with the following text: ```/newbot``` If you don't know how to message by username, click the search field on your Telegram app and type ```@botfather```, you should be able to initiate a conversation.
@@ -86,9 +87,9 @@ For a description of the Bot API, see this page: https://core.telegram.org/bots/
 Note down the 'token' mentioned above! Is mandatory to configure the BOT!
 
 ### Get Group ID From Telegram
-You need a browser or the command curl, so you have to open the url: `https://api.telegram.org/bot{BOT TOKEN}`, **no slashes in the URL path**, ex:
+You need a browser or the command curl, so you have to open the url: https://api.telegram.org/bot(BOT TOKEN), ex:
 ```bash
-curl https://api.telegram.org/bot123456789:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+$ curl https://api.telegram.org/bot123456789:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 ```
 You shoul see something like this: 
 ```
@@ -101,47 +102,26 @@ You can use ```id```, ```chat_id``` or ```group_id``` and the bot will publish i
 ### Configure camTGalert
 Copy the default config file to your new one: 
 ```
-sudo cp /opt/camtgalert/bot.config.default /opt/camtgalert/bot.config
+$ sudo cp /opt/camtgalert/bot.config.default /opt/camtgalert/bot.config
 ```
 Edit the configuration and set your Token and Group ID, to exit the editor press CTRL+X then Y to save the config file:
 ```
-sudo pico /opt/camtgalert/bot.config
+$ sudo pico /opt/camtgalert/bot.config
 ```
 # Now you are ready to go!
-To run the bot exec the following command and take a look at your Telegram Group or Telegram Chat
+To run the bot exec the follow command and take a look at your Telegram Group or Telegram Chat
 ```
-sudo python3 /opt/camtgalert/camtgalert.py 
+$ sudo python3 /opt/camtgalert/camtgalert.py 
 ```
-If you need it as a deamon:
-```
-sudo cp /opt/camtgalert/telegrambotcam.service /etc/systemd/system/telegrambotcam.service
-```
-To start it on startup exec the following:
-```
-sudo systemctl enable telegrambotcam.service
-```
-To start it as a deamon NOW:
-```
-sudo systemctl start telegrambotcam.service
-```
-To stop the running deamon NOW:
-```
-sudo systemctl stop telegrambotcam.service
-```
-To disable it on startups:
-```
-sudo systemctl disable telegrambotcam.service
-```
-
-To close the application just press ```CTRL+C``` and wait few seconds to let the ram clean.
-
+To close the application just press ```CTRL+c``` and wait few seconds to let the ram clean.
 # Graphic User Interface 
 <p align="center">
 <img src="https://raw.githubusercontent.com/okno/camtgalert/master/screenshotGUI.jpeg" /></p>
+<center>
  
 If you want to use the Graphic User Interface 
 ```
-sudo python3 /opt/camtgalert/camtgalert.py --gui
+$ sudo python3 /opt/camtgalert/camtgalert.py --gui
 ```
 To quit the GUI, just press the "Close Monitoring & BOT Connection" button or press X from the titlebar or ```CTRL+c``` from the terminal and wait few seconds to let the ram clean.
 If everything is perfect you should see something like this:

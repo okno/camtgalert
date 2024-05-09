@@ -2,5 +2,3 @@ python-telegram-bot
 opencv-python
 numpy
 Pillow
-pyTelegramBotAPI
-opencv-python-headless
